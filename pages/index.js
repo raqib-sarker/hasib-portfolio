@@ -24,8 +24,8 @@ const Home = () => {
             applications using JavaScript, React.js, and Next.js
           </p>
           {/* btn */}
-          <div className="flex justify-center xl:justify-start relative">
-            <ProjectsBtn />
+          <div className="absolute flex justify-center xl:justify-start bottom-20">
+            {/* <ProjectsBtn /> */}
           </div>
         </div>
       </div>

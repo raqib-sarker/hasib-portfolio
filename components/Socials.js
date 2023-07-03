@@ -1,4 +1,5 @@
 import {
+  RiDownloadLine,
   RiYoutubeLine,
   RiLinkedinLine,
   RiFacebookLine,
@@ -10,6 +11,13 @@ import Link from "next/link";
 const Socials = () => {
   return (
     <div className="flex items-center gap-x-5 text-xl lg:mr-40">
+      <Link
+        href="https://drive.google.com/file/d/1sDVhiLdmSOeguh4Z-bvre9s7efd625_4/view?usp=drive_link"
+        target="_blank"
+        passHref
+      >
+        <RiDownloadLine className="hover:text-accent transition-all duration-300" />
+      </Link>
       <Link href="https://linkedin.com/in/techhasib" passHref>
         <RiLinkedinLine className="hover:text-accent transition-all duration-300" />
       </Link>
