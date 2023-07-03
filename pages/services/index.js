@@ -38,7 +38,7 @@ const Services = () => {
             </div>
           </div>
 
-          <div className="w-full md:w-6/12 px-4 mt-6 xl:mt-0">
+          <div className="w-full md:w-6/12 px-4 mt-5 xl:mt-0">
             <div className="flex flex-wrap">
               <div className="w-full md:w-6/12 px-4">
                 <div className="relative flex flex-col mt-4">
@@ -46,7 +46,7 @@ const Services = () => {
                     <h6 className="text-xl mb-1 font-semibold">
                       Custom Web App
                     </h6>
-                    <p className="mb-4 text-blueGray-500">
+                    <p className="mb-3 text-blueGray-500">
                       I am specialize in developing tailor-made web applications
                       that meet your specific business requirements.
                     </p>
@@ -57,7 +57,7 @@ const Services = () => {
                     <h6 className="text-xl mb-1 font-semibold">
                       Responsive Design
                     </h6>
-                    <p className="mb-4 text-blueGray-500">
+                    <p className="mb-3 text-blueGray-500">
                       I create visually appealing and mobile-friendly web
                       designs that adapt seamlessly to different screen sizes
                       and devices.
@@ -69,7 +69,7 @@ const Services = () => {
                 <div className="relative flex flex-col min-w-0 mt-4">
                   <div className="px-4 py-5 flex-auto">
                     <h6 className="text-xl mb-1 font-semibold">E-commerce</h6>
-                    <p className="mb-4 text-blueGray-500">
+                    <p className="mb-3 text-blueGray-500">
                       Boost your online business with my robust e-commerce
                       solutions. From secure payment gateways to intuitive
                       product.
@@ -81,7 +81,7 @@ const Services = () => {
                     <h6 className="text-xl mb-1 font-semibold">
                       Maintenance and Support
                     </h6>
-                    <p className="mb-4 text-blueGray-500">
+                    <p className="mb-3 text-blueGray-500">
                       To ensure your application remains up-to-date, secure, and
                       performs optimally.
                     </p>
@@ -91,6 +91,12 @@ const Services = () => {
             </div>
           </div>
         </div>
+        <Link
+          className="px-4 mx-36 py-2 text-gray-100 bg-[#F13024] rounded dark:bg-red-400 dark:hover:bg-red-500 hover:bg-red-600"
+          href="/work"
+        >
+          See Projects
+        </Link>
       </div>
     </section>
   );
